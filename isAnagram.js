@@ -1,4 +1,4 @@
-const n = "sas"; // Try edit me
+const n = "sas";
 const t = "sas";
 
 function isAnagram(n, t) {
