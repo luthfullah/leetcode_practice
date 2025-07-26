@@ -3,10 +3,12 @@ function ListNode(val, next = null) {
   this.next = next;
 }
 
-function addTwoNumbers(l1, l2) {
+function addTwoNumbers() {
   const dummyHead = new ListNode(0);
   let current = dummyHead;
   let carry = 0;
+  const l1 = [2, 4, 3],
+    l2 = [5, 6, 4];
 
   while (l1 || l2 || carry) {
     const val1 = l1 ? l1.val : 0;
